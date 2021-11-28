@@ -36,3 +36,40 @@ NOTE: For this we will be using phpmyadmin to install the database. Other tools 
 
 ### Using The Program
 NOTE: There are two types of users. To access the whole program please use the admin account. Login: admin@email.ca Password: admin
+To start using the program open start.html in your server. If are you using WAMP its
+http://localhost/dataProject/start.html
+![URL to start the program](/installationImages/urlStart.JPG)
+
+### Start.html
+This is the starting page of the website. Use this to create an account or login into the website. Remember if you create a new account it will be a regular account and can only access the reservation page. To see all the pages login as an admin.
+
+### Index.html
+This is the landing page for the website. Showcases the websites features. Use it to navigate to the other pages.
+
+### createReservation.php
+Use this page to create and insert a reservation into the database. Select a theatre then a movie select a room, then the date, the number of tickets, and finally the row number. If you are a regular user the id user for the reservation is your id, but if you're an admin the page is different and you can select what user you want to register for. The page on right dynamically updates with the movie you select, and displays the relevant information about the movie. We used the OMDB API to accomplish this.
+![Reservation Page showing the UI](/installationImages/reservation.JPG)
+
+### View.php
+This page displays the created SQL views from Phase and displays them in a tabular format. It also displays a description of the view. The user can select what view they want to see. We used the Datatables JS library to display the tables.
+![Views page showing the ui](/installationImages/view.JPG)
+
+### Table.php
+This page displays the tables in the database so the administrator can view the database without having to use another program. The user can select what table they want to view. It also displays the tables using the Datatables JS library.
+![Table page showing the ui](/installationImages/table.JPG)
+
+
+### createTheatre.php
+This page allows the administrator to add another theatre location to the database. They need to select a theatre idand location. The theatre id must be unique, if a repeat id is used the user will be notified and the insertion will be rejected.
+![Showing the create theatre inputs](/installationImages/theatreCreate.JPG)
+
+### createRoom.php
+This page allows the administrator to add rooms to a theatre in the database. They need to select the theatre they want to add to and input a room id. The room id will automatically be set to the minimum available theatre id. The room id must be unique, if a repeat id is used the user will be notified and the insertion will be rejected.
+![Showing the create room inputs](/installationImages/createRoom.JPG)
+
+### createMovie.php
+This page allows the administrator to news movies to the database. They need to input the movie title and the year it was made, from there they can search for the movie. If the movie is the one they desired then they input the time the movie should start. . The Movie id must be unique, if a repeat id is used the user will be notified and the insertion will be rejected. To search for the movies and get its corresponding information, the IMDB database is used, to access the database the OMDB api is used.
+![Showing the create movie inputs](/installationImages/createMovie.JPG)
+
+### Logout.php
+Log the user out of the website.
