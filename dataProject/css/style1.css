@@ -1,0 +1,127 @@
+#all {
+	height: 100%;
+	width: 60%;
+	font-size: 0;
+	margin: 0px 20%;
+}
+
+
+
+#book, #poster {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	font-size: 12px;
+}
+#book {
+	background: #F2E0D0;
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+	font-family: 'Verdana';
+	height: 600px;
+}
+#poster {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 230px;
+	height: 400px;
+	
+}
+body {
+	background: #26030A;
+	text-align: center;
+	font-family: 'Open Sans';
+}
+label.label {
+	margin: 10px;
+	width: 200px;
+}
+.button {
+	background-color: #008CBA;
+	margin: 10px 40px 10px;
+	color: white;
+	border: 2px solid #008CBA;
+	border-radius: 4px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	transition-duration: 0.4s;
+}
+.button:hover {
+	background-color: white;
+	color: black;
+}
+.vip {
+	margin: 20px;
+}
+#checkout {
+	background: #733907;
+	color: #F2F2F2;
+	margin: 5px;
+	padding: 5px;
+}
+#p1 {
+	border: 2px solid #008CBA;
+	border-radius: 4px;
+	width: 40%;
+	margin: 0px 30% 10px 30%;
+	background: #F2E0D0;
+	padding: 10px 20px 3px;
+}
+#p6 {
+	border: 2px solid #008CBA;
+	border-radius: 4px;
+	width: 80%;
+	margin: 0px 30% 10px 30%;
+	background: #F2E0D0;
+	padding: 10px;
+}
+
+#p2 {
+	border: 2px solid #008CBA;
+	border-radius: 4px;
+	width: 40%;
+	margin: 0px 30% 10px 30%;
+	background: #F2E0D0;
+	display: flex;
+}
+#p3 {
+
+	width: 40%;
+	background: #F2E0D0;
+	padding: 10px 20px 3px;
+	float: left;
+	flex: 0 0 25%;
+}
+#p9 {
+	width: 80%;
+	background: #F2E0D0;
+	padding: 10px 20px 3px;
+}
+#p7 {
+	border: 2px solid #008CBA;
+	border-radius: 4px;
+	width: 100%;
+	font-size: 0.95rem;
+	background: #F2E0D0;
+}
+#p4 {
+	border: 2px solid #008CBA;
+	border-radius: 4px;
+	width: 40%;
+	margin: 0px 30% 10px 30%;
+	background: #F2E0D0;
+	padding: 10px 20px 3px;
+}
+ul {
+	text-align: center;
+	list-style-position: inside;
+	padding-inline-start: 0px;
+}
+ul.left {
+	text-align: left;
+}

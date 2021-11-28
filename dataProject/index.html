@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link href="css/style1.css" rel="stylesheet"><!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Welcome to OUR DMBS</title>
+	<style>
+	       /* Make the image fully responsive */
+	       .carousel-inner img {
+	           position: relative;
+	           max-height: 90%;
+	           height: calc(100vh - 21px);
+	           width: 100%;
+	       }
+
+	       body {
+	           margin: 0;
+	           padding: 0;
+	       }
+	</style>
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js">
+	</script>
+	<nav class="navbar sticky-top navbar-dark bg-dark">
+		<a class="navbar-brand" href="index.html">Movie DBMS</a> <button class="navbar-toggler" data-target="#collapsingNavbar" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+		<div class="navbar-collapse collapse" id="collapsingNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Start Page</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="createReservation.php">Make Reservations</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="view.php">Look at database Views</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="table.php">Look at the database tables</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="createTheatre.php">Add Theatres</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="createRoom.php">Add rooms to theatres</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="createMovie.php">Add movies</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="logout.php">Logout</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="carousel slide" data-interval="9500" data-ride="carousel" id="caro">
+		<ul class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#caro"></li>
+			<li data-slide-to="1" data-target="#caro"></li>
+			<li data-slide-to="2" data-target="#caro"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<a href="Booking.php"><img alt="Welcome" height="500" src="img/databaseArt.jpg" width="1100"></a>
+				<div class="carousel-caption">
+					<h3>Welcome to the our Movie DBMS</h3>
+					<p>Preivew our movie database management system</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<a href="table.php"><img alt="Reviews" height="500" src="img/code.jpg" width="1100"></a>
+				<div class="carousel-caption">
+					<h3 style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Look at all the tables</h3>
+					<p>Click to look at the tables</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<a href="view.php"><img alt="About" height="500" src="img/computerMotherboard.jpg" width="1100"></a>
+				<div class="carousel-caption">
+					<h3>Look at our database views</h3>
+					<p>Click the page to learn more</p>
+				</div>
+			</div>
+		</div><a class="carousel-control-prev" data-slide="prev" href="#caro"><span class="carousel-control-prev-icon"></span></a> <a class="carousel-control-next" data-slide="next" href="#caro"><span class="carousel-control-next-icon"></span></a>
+	</div>
+</body>
+</html>
