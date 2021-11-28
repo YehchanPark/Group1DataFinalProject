@@ -60,7 +60,7 @@ This page displays the tables in the database so the administrator can view the 
 
 
 ### createTheatre.php
-This page allows the administrator to add another theatre location to the database. They need to select a theatre idand location. The theatre id must be unique, if a repeat id is used the user will be notified and the insertion will be rejected.
+This page allows the administrator to add another theatre location to the database. They need to select a theatre idand location. The theatre id must be unique, if a repeat id is used the user will be notified and the insertion will be rejected.\
 ![Showing the create theatre inputs](/installationImages/theatreCreate.JPG)
 
 ### createRoom.php
